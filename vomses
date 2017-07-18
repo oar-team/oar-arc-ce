@@ -1,0 +1,6 @@
+"alice" "lcg-voms.cern.ch" "15000" "/DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch" "alice"
+"cms" "lcg-voms.cern.ch" "15002" "/DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch" "cms"
+"atlas" "lcg-voms2.cern.ch" "15001" "/DC=ch/DC=cern/OU=computers/CN=lcg-voms.cern.ch" "atlas"
+"gin.ggf.org" "kuiken.nikhef.nl" "15050" "/O=dutchgrid/O=hosts/OU=nikhef.nl/CN=kuiken.nikhef.nl" "gin.ggf.org"
+"pamela" "voms.cnaf.infn.it" "15013" "/C=IT/O=INFN/OU=Host/L=CNAF/CN=voms.cnaf.infn.it" "pamela"
+

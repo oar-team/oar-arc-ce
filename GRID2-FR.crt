@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3 (0x3)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=FR, O=CNRS, CN=CNRS2-Projets
+        Validity
+            Not Before: Jan 21 09:12:12 2009 GMT
+            Not After : Jan 19 09:12:12 2029 GMT
+        Subject: C=FR, O=CNRS, CN=GRID2-FR
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+            RSA Public Key: (2048 bit)
+                Modulus (2048 bit):
+                    00:d9:b2:13:77:20:6b:16:46:1a:81:4b:16:44:1b:
+                    be:e4:54:22:31:14:41:fa:26:b1:66:1e:19:bb:b1:
+                    9e:a5:57:e3:5b:8b:90:c9:fd:2d:b5:e9:da:6b:42:
+                    fc:2d:f8:5c:03:b3:ad:64:8d:72:d7:72:fa:19:df:
+                    88:f5:4e:9a:be:45:20:cc:a5:f1:91:dc:b5:0d:07:
+                    56:53:bf:51:97:13:15:7a:63:51:31:ae:a2:bc:6d:
+                    e2:c5:7e:3a:a0:30:39:77:0c:d0:7a:e2:2d:70:af:
+                    60:c0:af:dc:c9:27:37:3b:9b:db:35:e2:9a:99:b8:
+                    9e:0b:a2:ce:49:dc:a4:9b:cf:9b:a7:8e:1b:03:ef:
+                    12:d8:48:19:72:86:68:ff:f9:67:76:9e:4c:cf:fa:
+                    a0:03:78:f9:3d:02:c3:e5:4e:c4:29:d0:18:5f:71:
+                    44:6d:4b:71:49:b0:dc:e0:25:7d:48:de:e4:92:ab:
+                    ef:b2:9a:89:74:09:f6:a3:79:52:7c:5a:b9:03:f7:
+                    74:d1:d0:82:b4:2c:aa:d2:1c:87:af:0e:74:c4:25:
+                    5f:2a:22:5e:8c:b8:53:82:f9:70:0a:5c:fe:3f:ef:
+                    4e:66:3e:51:21:cb:fc:cd:ae:40:dd:c8:79:16:35:
+                    9b:af:32:ba:20:dd:00:82:0e:5e:2a:3d:8c:bf:26:
+                    b5:ed
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Key Identifier: 
+                27:96:48:27:EE:21:B6:F2:AF:B1:2D:7D:FA:F7:D7:48:25:70:95:93
+            X509v3 Authority Key Identifier: 
+                keyid:64:7C:98:3E:D1:A8:EE:BE:23:DC:07:8F:E6:67:D1:8F:9A:81:67:C0
+                DirName:/C=FR/O=CNRS/CN=CNRS2
+                serial:01
+
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 CRL Distribution Points: 
+                URI:http://crls.services.cnrs.fr/CNRS2-Projets/getder.crl
+
+    Signature Algorithm: sha1WithRSAEncryption
+        1a:6d:69:d3:c6:ee:95:5b:47:8f:3d:63:2b:85:a3:7a:e9:74:
+        01:a5:49:0f:55:f0:2e:d4:3c:08:42:a5:8c:5e:27:09:b6:b1:
+        e7:01:1f:6c:ff:cf:16:90:3c:78:ff:25:db:ee:6e:5a:da:6b:
+        65:5c:0f:de:1d:69:86:a5:04:45:40:6c:51:ba:15:5f:0d:a7:
+        54:65:4d:66:0b:c6:fa:fd:47:5a:34:f7:f7:48:75:90:ff:05:
+        e4:08:24:49:1f:32:d6:c5:2f:3a:8f:d4:e8:81:ac:d0:c1:a0:
+        a1:d1:f2:ac:40:a5:40:0b:08:78:0a:c8:d9:bd:3a:f9:5a:06:
+        a1:0d:de:ce:d4:14:f9:96:9c:6d:fa:a0:48:b4:cb:15:01:4f:
+        3c:85:a4:d7:4a:2d:69:20:f1:bf:56:76:91:d0:dc:fc:35:d7:
+        e0:fb:a1:50:a3:51:ba:72:28:f4:21:ef:fa:5f:86:71:69:f1:
+        0e:71:66:60:e9:0d:e8:29:89:f5:26:d1:85:d0:5c:0e:38:e7:
+        a0:17:a9:76:73:e3:41:02:c0:a6:57:6e:e0:f2:7d:b9:bb:f9:
+        b1:d0:49:b8:b4:30:0e:80:ac:e7:38:e0:da:78:4f:0e:2a:ff:
+        54:e3:49:46:be:7f:91:9a:77:e6:07:51:cf:c0:da:8e:99:6e:
+        75:1c:87:61
+-----BEGIN CERTIFICATE-----
+MIIDwDCCAqigAwIBAgIBAzANBgkqhkiG9w0BAQUFADA0MQswCQYDVQQGEwJGUjEN
+MAsGA1UEChMEQ05SUzEWMBQGA1UEAxMNQ05SUzItUHJvamV0czAeFw0wOTAxMjEw
+OTEyMTJaFw0yOTAxMTkwOTEyMTJaMC8xCzAJBgNVBAYTAkZSMQ0wCwYDVQQKEwRD
+TlJTMREwDwYDVQQDEwhHUklEMi1GUjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBANmyE3cgaxZGGoFLFkQbvuRUIjEUQfomsWYeGbuxnqVX41uLkMn9LbXp
+2mtC/C34XAOzrWSNctdy+hnfiPVOmr5FIMyl8ZHctQ0HVlO/UZcTFXpjUTGuorxt
+4sV+OqAwOXcM0HriLXCvYMCv3MknNzub2zXimpm4nguizkncpJvPm6eOGwPvEthI
+GXKGaP/5Z3aeTM/6oAN4+T0Cw+VOxCnQGF9xRG1LcUmw3OAlfUje5JKr77KaiXQJ
+9qN5UnxauQP3dNHQgrQsqtIch68OdMQlXyoiXoy4U4L5cApc/j/vTmY+USHL/M2u
+QN3IeRY1m68yuiDdAIIOXio9jL8mte0CAwEAAaOB4TCB3jAPBgNVHRMBAf8EBTAD
+AQH/MB0GA1UdDgQWBBQnlkgn7iG28q+xLX3699dIJXCVkzBUBgNVHSMETTBLgBRk
+fJg+0ajuviPcB4/mZ9GPmoFnwKEwpC4wLDELMAkGA1UEBhMCRlIxDTALBgNVBAoT
+BENOUlMxDjAMBgNVBAMTBUNOUlMyggEBMA4GA1UdDwEB/wQEAwIBBjBGBgNVHR8E
+PzA9MDugOaA3hjVodHRwOi8vY3Jscy5zZXJ2aWNlcy5jbnJzLmZyL0NOUlMyLVBy
+b2pldHMvZ2V0ZGVyLmNybDANBgkqhkiG9w0BAQUFAAOCAQEAGm1p08bulVtHjz1j
+K4Wjeul0AaVJD1XwLtQ8CEKljF4nCbax5wEfbP/PFpA8eP8l2+5uWtprZVwP3h1p
+hqUERUBsUboVXw2nVGVNZgvG+v1HWjT390h1kP8F5AgkSR8y1sUvOo/U6IGs0MGg
+odHyrEClQAsIeArI2b06+VoGoQ3eztQU+ZacbfqgSLTLFQFPPIWk10otaSDxv1Z2
+kdDc/DXX4PuhUKNRunIo9CHv+l+GcWnxDnFmYOkN6CmJ9SbRhdBcDjjnoBepdnPj
+QQLApldu4PJ9ubv5sdBJuLQwDoCs5zjg2nhPDir/VONJRr5/kZp35gdRz8Dajplu
+dRyHYQ==
+-----END CERTIFICATE-----

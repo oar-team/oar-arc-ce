@@ -1,0 +1,4 @@
+&(executable = "testarc.sh")
+(jobname = "ARC first test" )
+(stdout = "stdout" )
+(outputfiles = ("testarc.output" "" ) )
