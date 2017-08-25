@@ -66,10 +66,12 @@ Lancer les services
 Permet de démarrer gridftp, a-rex, ldap et les scripts infosystem, ceci doit afficher des “ok”.
  
 Initialiser un proxy
-Passer sur l’utilisateur atl199 : su - atl199
+Passer sur l’utilisateur atl199 : su - atl199 ( su - docker )
  
-voms-proxy-init --voms “atlas”
+voms-proxy-init --voms “atlas” -> marche pas, utiliser arcproxy -S atlas
  
 Soumettre un job
  
 arcsub -c gricad-stage5.u-ga.fr -e '&(executable="/bin/echo")( stdout = "stdout" )(arguments="Hello World!")' --debug VERBOSE
+
+pour utiliser le wrapper OAR, il faut dans arc.conf utiliser le lrms "SLURMPY" et copier le fichier slurm.py de github (qui est en fait le wrapper pour OAR) dans /usr/lib64/python2.6/site-packages/arc/lrms
