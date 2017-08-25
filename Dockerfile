@@ -17,57 +17,57 @@ RUN rpm --import http://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-6
 
 #RUN yum install -y http://dl.fedoraproject.org/pub/epel/epel-release-latest-6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-acix-core-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-acix-core-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-acix-cache-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-acix-cache-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-acix-index-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-acix-index-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-ldap-infosys-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-ldap-infosys-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-hed-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-hed-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-plugins-needed-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-plugins-needed-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y  http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-python-201705280215-1.el6.x86_64.rpm
+RUN yum install -y  http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-python-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-arex-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-arex-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-aris-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-aris-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-ca-utils-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-ca-utils-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-cache-service-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-cache-service-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-client-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-client-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-datadelivery-service-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-datadelivery-service-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-debuginfo-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-debuginfo-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-devel-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-devel-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-egiis-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-egiis-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-plugins-globus-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-plugins-globus-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-gridftpd-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-gridftpd-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-gridmap-utils-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-gridmap-utils-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-java-201705280215-1.el6.x86_64.rpm
+#RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-java-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-ldap-monitor-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-ldap-monitor-201708210220-1.el6.noarch.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-plugins-gfal-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-plugins-gfal-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-plugins-s3-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-plugins-s3-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-plugins-xrootd-201705280215-1.el6.x86_64.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-plugins-xrootd-201708210220-1.el6.x86_64.rpm
 
-RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-05-28/centos/el6/x86_64/nordugrid-arc-ws-monitor-201705280215-1.el6.noarch.rpm
+RUN yum install -y http://builds.nordugrid.org/nightlies/packages/nordugrid-arc/trunk/2017-08-21/centos/el6/x86_64/nordugrid-arc-ws-monitor-201708210220-1.el6.noarch.rpm
 
 ADD EGI-trustanchors.repo /etc/yum.repos.d/EGI-trustanchors.repo
 
