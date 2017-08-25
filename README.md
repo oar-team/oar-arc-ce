@@ -54,7 +54,7 @@ Utiliser “run” avec les options -h suivi du fqdn de votre machine et --netwo
 Exemple : sudo docker run -it -h gricad-stage5.u-ga.fr --network=”host” 3c695471c883
  
 Tester la configuration
-Passer sur l’utilisateur atl199 : su - atl199
+Passer sur l’utilisateur atl199 : su - atl199 ( ou "su - docker" ?)
 
 Faire /etc/init.d/a-rex validate, il ne doit pas y avoir d’erreur.
  
